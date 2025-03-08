@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import toast, { Toaster } from "react-hot-toast";
-import { add, remove } from "../redux/slices/CartSlice";
+import { add, remove } from "../redux/slices/cartSlice";
+
 
 function Product({ post }) {
   // const {cart} = useSelector((state)=>state)
